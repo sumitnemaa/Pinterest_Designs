@@ -1,11 +1,11 @@
 @font-face {
     font-family: khmer;
-    src: url(./NotoSansKhmer-VariableFont_wdth\,wght.ttf);
+    src: url(./assets/NotoSansKhmer-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: roboto;
-    src: url(./Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(./assets/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 *{
