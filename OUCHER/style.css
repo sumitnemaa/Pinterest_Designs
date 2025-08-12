@@ -1,0 +1,248 @@
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: roboto;
+    background-color: black;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #979491;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.nav-part1>h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-part2>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.nav-part3 {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-part3>button {
+    border: none;
+    color: aliceblue;
+    background-color: black;
+    font-size: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.nav-part3 i {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 4px;
+    font-weight: 900;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.center-left {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.center-left-above {
+    width: 100%;
+    border-bottom: 2px solid #979491;
+    display: flex;
+}
+
+.center-left-above>h1, .center-left-below>h4 {
+    color: aliceblue;
+}
+
+.center-left-above>h1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 350;
+    line-height: 70px;
+    padding-bottom: 10px;
+}
+
+.center-left-above img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.center-left-below {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.center-left-below>h4 {
+    font-weight: 400
+}
+
+.center-right {
+    width: 100%;
+    width: 50%;
+    padding-left: 60px;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 22px;
+    left: 85px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.demo-btn {
+    position: absolute;
+    bottom: 22px;
+    right: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    font-weight: 500;
+    font-size: 15px;
+    background: transparent;
+}
+
+.demo-btn:hover {
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+}
+
+.center-right img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.demo-btn i {
+    font-size: 30px;
+}
+
+.folders {
+    padding: 70px 0px 40px 0px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.folder1, .folder2, .folder3, .folder4 {
+    width: 320px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.folder1 {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 10px 10px;
+}
+.folder2 {
+    padding: 15px 0px 20px 20px;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.folder3 {
+    background-color: white;
+    position: relative;
+}
+.folder4 {
+    background-color: #F8CD40;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0px 20px 20px;
+}
+
+.btn1, .btn2, .btn3 {
+    color: #bfbdbd;
+    background: transparent;
+    border: 1px solid #bfbdbd;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.folder2>h4, .folder3>h2, .folder4>h5{
+    text-transform: uppercase;
+}
+
+.folder2>i {
+    font-size: 40px;
+}
+
+.folder3>h2 {
+    font-weight: 450;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+
+.folder3 i {
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    padding: 7px;
+}
+
+.folder4>h5 {
+    font-weight: 400;
+}
+
+.folder4>h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
