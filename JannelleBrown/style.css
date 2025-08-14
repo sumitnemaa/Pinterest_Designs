@@ -1,0 +1,111 @@
+@font-face {
+    font-family: roboto;
+    src: url(./assets/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: roboto;
+    text-transform: uppercase;
+    background-color: #EEEFEE;
+    padding: 20px 30px 0px 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.nav-intro {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about {
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.about::after {
+    content: "";
+    bottom: 0;
+    left: 12px;
+    position: absolute;
+    width: calc(100% - 25px);
+    height: 2px;
+    background: #000;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email {
+    font-size: 15px;
+    background-color: #FFFEFF;
+    border: 1px solid none;
+    border-radius: 50px;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+.section1 {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.above {
+    padding: 120px;
+}
+
+.profession>h1 {
+    font-size: 120px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 0.8;
+    letter-spacing: -4px;
+}
+
+.company {
+    color: #313030;
+    font-size: 22px;
+    line-height: 1.1;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.below>img {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 30px;
+    padding-bottom: 40px;
+}
